@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image : url(https://img.freepik.com/free-vector/set-healthy-dishes_1308-28386.jpg?w=1380&t=st=1684597235~exp=1684597835~hmac=d6026cd3dd6b9556cae581693174f43d72a72dbe67cf9d306d73d004628cf209);
+    background-size: 70%;
+    background-position: center;
+    color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+  
+  form {
+    margin-top:-5px;
+  }
+
+  h1, p {
+    margin: 0.5em auto;
+    text-align: center;
+  }
+  
+  .box {
+    width: fit-content;
+    border-radius: 15px;
+    color:saddlebrown;
+    background-color:antiquewhite;
+    margin: 0 25%;
+    padding: 2% 5%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    height: fit-content;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: white;
+    border: 1px solid #0a0a23;
+    color: saddlebrown;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .question {
+    text-align: left;
+    padding-top:5px;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: white;
+    border-color: saddlebrown;
+    min-width: 300px;
+  }
+
+  
+  
